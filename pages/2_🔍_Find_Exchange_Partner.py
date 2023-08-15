@@ -66,14 +66,14 @@ with st.sidebar:
                     f'<a href="https://forms.gle/RmjNdkbu2pBzpLeNA" style="display: inline-block; padding: 6px 30px; background-color: #5B9A8B; color: white; text-align: center; text-decoration: none; font-size: 16px; border-radius: 4px;"><b>Join Us!</b></a>',
                     unsafe_allow_html=True
         )
-        st.error('⚠️ The Babysitters Exchange is for PARENTS ONLY')
-if password != 'YourPasswordHere':
+        st.warning('⚠️ The Babysitters Exchange is for PARENTS ONLY')
+if password not in st.secrets['map_passwords']:
     st.info('Enter password in sidebar to view the map please...', icon="⚠️")
     st.stop()
 
 # Read data from Google Sheet
 sheet_url = 'https://docs.google.com/spreadsheets/d/1x23hsLL4ogyLHrRfv3liYj-g-XNdwiEv3epX6bs7Bno/edit#gid=1508967770'
-creds_path = '/Users/djw/Documents/pCloud_synced/Academics/Projects/2023_data_viz_club/babysitters_exchange/creds/babysit-exchange-d3319b91f667.json'
+creds_path = '/Users/djw/Documents/pCloud_synced/Academics/Projects/2023_data_viz_club/babysitter-exchange/creds/babysit-exchange-d3319b91f667.json'
 data = read_google_sheet(sheet_url, creds_path)
 
 
