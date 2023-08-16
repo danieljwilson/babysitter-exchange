@@ -73,7 +73,7 @@ if password not in st.secrets['map_passwords']:
 
 # Read data from Google Sheet
 sheet_url = 'https://docs.google.com/spreadsheets/d/1x23hsLL4ogyLHrRfv3liYj-g-XNdwiEv3epX6bs7Bno/edit#gid=1508967770'
-creds_path = '/creds/babysit-exchange-d3319b91f667.json'
+creds_path = 'creds/babysit-exchange-d3319b91f667.json'
 data = read_google_sheet(sheet_url, creds_path)
 
 
