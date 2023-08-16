@@ -28,7 +28,6 @@ def create_map(data):
         if row['Currently looking for exchange'] == 'Yes': # Only show popup if the value in 'Currently looking for exchange' column is 'yes'
             popup_content = f"""
             <h4>{row['First Name']}</h4>
-            <p><b>Number of Kids</b>: {row['Number of Kids']}<br>
             <b>Sleep Time</b>: {row['Time kids are asleep?']}</p>
             <p><b>Email</b>: {row['Email Address']}</p>
             """
