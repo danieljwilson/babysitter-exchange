@@ -76,11 +76,16 @@ sheet_url = st.secrets['private_gsheets_url']
 key_dict = json.loads(st.secrets['gcp_service_account'])
 data = read_google_sheet(sheet_url, key_dict)
 
+# Text above map
+'''
+##### Click on a :green[green] :house: icon to find an exchange partner! :point_down:
+'''
 
 # Create and display the map
 m = create_map(data)
 folium_static(m)
 
+st.info('Copy the email address to get in touch with another parent')
 
 #############
 # FIX CREDS #
