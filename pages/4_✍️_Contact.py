@@ -35,8 +35,5 @@ with st.sidebar:
 st.markdown('#### Contact')
 '''
 Questions, problems, suggestions?
-
-Please feel free to contact me at 
-<a href="mailto:hello@streamlit.io">Contact us !</a>
 '''
-st.markdown('<a href="mailto:hello@streamlit.io">Contact us !</a>', unsafe_allow_html=True)
+st.markdown('Please feel free to <a href="mailto:daniel.j.wilson+babysittingexchange@gmail.com">contact me</a>.', unsafe_allow_html=True)
