@@ -69,6 +69,7 @@ with st.sidebar:
         st.warning('⚠️ The Babysitters Exchange is for PARENTS ONLY')
 if password not in st.secrets['map_passwords']:
     st.info('Enter password in sidebar to view the map please...', icon="⚠️")
+    st.warning('If you do not have a password you need to first sign up.')
     st.stop()
 
 # Read data from Google Sheet
