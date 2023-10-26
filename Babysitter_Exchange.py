@@ -56,6 +56,7 @@ Once you sign up you will be given a password to access the map of other neighbo
 st.markdown('**For more info see our <a href="/FAQs" target="_self">FAQ page</a>**', unsafe_allow_html=True)
 st.divider()
 st.info('Go to 🔍 Find Echange Partner to find an exchange', icon="👈")
+st.warning('This has just been launched so if you are not finding a good fit now, please check back soon.')
 st.divider()
 
 st.image('media/art_d_pic.jpg', caption="Our little gang", width=None, use_column_width=None, clamp=False, channels="RGB", output_format="auto")
