@@ -47,8 +47,8 @@ with col2:
                         f'<a href="https://forms.gle/RmjNdkbu2pBzpLeNA" style="display: inline-block; padding: 6px 30px; background-color: #5B9A8B; color: white; text-align: center; text-decoration: none; font-size: 16px; border-radius: 4px;"><b>Join Us!</b></a>',
                         unsafe_allow_html=True
                 )
-
-st.info('Go to 🔍 Find Echange Partner to find an exchange', icon="👈")
+st.divider()
+st.info('Once signed up go to 🔍 Find Echange Partner to locate an exchange', icon="👈")
 
 '''
 ##### How it Works
