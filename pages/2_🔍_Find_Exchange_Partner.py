@@ -24,7 +24,7 @@ def read_google_sheet(sheet_url, key_dict):
 def create_map(data):
     m = folium.Map(location=[data['Latitude'].mean(), data['Longitude'].mean()],
                    tiles='openstreetmap',
-                   zoom_start=5)
+                   zoom_start=10)
     for i, row in data.iterrows():
         if row['Currently looking for exchange'] == 'Yes': # Only show popup if the value in 'Currently looking for exchange' column is 'yes'
             popup_content = f"""
