@@ -62,11 +62,12 @@ password = st.sidebar.text_input(label='Password - press Enter when complete', t
 st.sidebar.divider()
 # Sidebar Buttons
 with st.sidebar:
-        st.markdown(
-                    f'<a href="https://forms.gle/RmjNdkbu2pBzpLeNA" style="display: inline-block; padding: 6px 30px; background-color: #5B9A8B; color: white; text-align: center; text-decoration: none; font-size: 16px; border-radius: 4px;"><b>Join Us!</b></a>',
-                    unsafe_allow_html=True
-        )
-        st.warning('⚠️ The Babysitters Exchange is for PARENTS ONLY')
+    st.warning('⚠️ The Babysitters Exchange is for PARENTS ONLY')
+    st.markdown(
+                f'<a href="https://forms.gle/RmjNdkbu2pBzpLeNA" style="display: inline-block; padding: 6px 30px; background-color: #5B9A8B; color: white; text-align: center; text-decoration: none; font-size: 16px; border-radius: 4px;"><b>Join Us!</b></a>',
+                unsafe_allow_html=True
+    )
+    
 if password not in st.secrets['map_passwords']:
     st.info('Enter password in sidebar to view the map please...', icon="⚠️")
     st.warning('If you do not have a password you need to first sign up.', icon='💡')

@@ -24,12 +24,11 @@ st.markdown("""
 
 # Sidebar Buttons
 with st.sidebar:
-        st.markdown(
-                    f'<a href="https://forms.gle/RmjNdkbu2pBzpLeNA" style="display: inline-block; padding: 6px 30px; background-color: #5B9A8B; color: white; text-align: center; text-decoration: none; font-size: 16px; border-radius: 4px;"><b>Join Us!</b></a>',
-                    unsafe_allow_html=True
-        )
-        st.warning('⚠️ The Babysitters Exchange is for PARENTS ONLY')
-
+    st.warning('⚠️ The Babysitters Exchange is for PARENTS ONLY')
+    st.markdown(
+                f'<a href="https://forms.gle/RmjNdkbu2pBzpLeNA" style="display: inline-block; padding: 6px 30px; background-color: #5B9A8B; color: white; text-align: center; text-decoration: none; font-size: 16px; border-radius: 4px;"><b>Join Us!</b></a>',
+                unsafe_allow_html=True
+    )
         
 
 st.markdown('#### Contact')
