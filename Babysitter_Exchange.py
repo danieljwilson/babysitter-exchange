@@ -47,6 +47,9 @@ with col2:
                         f'<a href="https://forms.gle/RmjNdkbu2pBzpLeNA" style="display: inline-block; padding: 6px 30px; background-color: #5B9A8B; color: white; text-align: center; text-decoration: none; font-size: 16px; border-radius: 4px;"><b>Join Us!</b></a>',
                         unsafe_allow_html=True
                 )
+
+st.info('Go to 🔍 Find Echange Partner to find an exchange', icon="👈")
+
 '''
 ##### How it Works
 The idea of the **Babysitter Exchange** is to have a nearby parent come over AFTER YOUR KIDS HAVE GONE TO SLEEP to be around in case anything happens, and in the meantime they can do some work or reading or internetting, etc. Then on another evening you or your partner will do the same for them.
@@ -54,8 +57,7 @@ The idea of the **Babysitter Exchange** is to have a nearby parent come over AFT
 Once you sign up you will be given a password to access the map of other neighborhood parents interested in exchanging.
 '''
 st.markdown('**For more info see our <a href="/FAQs" target="_self">FAQ page</a>**', unsafe_allow_html=True)
-st.divider()
-st.info('Go to 🔍 Find Echange Partner to find an exchange', icon="👈")
+
 st.warning('This has just been launched so if you are not finding a good fit now, please check back soon.')
 st.divider()
 
