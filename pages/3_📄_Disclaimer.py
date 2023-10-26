@@ -63,8 +63,4 @@ Please read this disclaimer ("Disclaimer") carefully before using **The Babysitt
 
     We reserve the right to change this Disclaimer at any time. Any changes will be posted on this page, and it is your responsibility to review this page regularly.
 
-7.  **Contact Information**
-
-    For any questions regarding this Disclaimer, please contact us at daniel.j.wilson <at> gmail <dot> com.
-
 '''
