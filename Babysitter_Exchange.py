@@ -48,7 +48,7 @@ with col3:
                         unsafe_allow_html=True
                 )
 st.divider()
-st.info('Once signed up go to 🔍 Find Echange Partner to locate an exchange', icon="👈")
+st.info('Once signed up and you receive your password go to 🔍 Find Echange Partner to locate an exchange', icon="👈")
 
 '''
 ##### How it Works
