@@ -37,7 +37,7 @@ with st.sidebar:
 # Add text
 #st.divider()
 '''
-## 👨‍👨‍👦‍👦 The Babysitting Exchange 
+# 👨‍👨‍👦‍👦 The Babysitting Exchange 
 **An informal group of Montreal parents with the goal of helping one another go on (more) affordable evening outings (sans kids).**
 '''
 # st.divider()
