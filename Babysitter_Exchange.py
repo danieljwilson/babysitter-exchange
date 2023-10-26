@@ -38,7 +38,7 @@ with st.sidebar:
 #st.divider()
 '''
 #### 👨‍👨‍👦‍👦 The Parents Babysitting Exchange 
-**An informal group of Montreal parents with the goal of helping one another go on (more) affordable evening outings, sans kids.**
+**An informal group of Montreal parents with the goal of helping one another go on (more) affordable evening outings (sans kids).**
 '''
 # st.divider()
 col1, col2, col3 = st.columns(3)
@@ -58,7 +58,7 @@ Once you sign up you will be given a password to access the map of other neighbo
 '''
 st.markdown('**For more info see our <a href="/FAQs" target="_self">FAQ page</a>**', unsafe_allow_html=True)
 
-st.warning('This has just been launched so if you are not finding a good fit now, please check back soon.')
+st.warning('This has just been launched so if you are not finding a good fit now, please check back soon. Also if the map is temporarily not working please check back the next day!')
 st.divider()
 
 st.image('media/art_d_pic.jpg', caption="Our little gang", width=None, use_column_width=None, clamp=False, channels="RGB", output_format="auto")
