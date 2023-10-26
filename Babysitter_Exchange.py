@@ -41,8 +41,8 @@ with st.sidebar:
 **An informal group of Montreal parents with the goal of helping one another go on (more) affordable evening outings (sans kids).**
 '''
 # st.divider()
-col1, col2, col3 = st.columns(3)
-with col2:
+col1, col2, col3, col4, col5 = st.columns(5)
+with col3:
         st.markdown(
                         f'<a href="https://forms.gle/RmjNdkbu2pBzpLeNA" style="display: inline-block; padding: 6px 30px; background-color: #5B9A8B; color: white; text-align: center; text-decoration: none; font-size: 16px; border-radius: 4px;"><b>Join Us!</b></a>',
                         unsafe_allow_html=True
