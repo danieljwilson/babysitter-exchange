@@ -38,7 +38,7 @@ with st.sidebar:
 #st.divider()
 '''
 #### 👨‍👨‍👦‍👦 The Parents Babysitting Exchange 
-**An informal group of Montreal parents with the goal of helping one another go on (more) affordable datenights.**
+**An informal group of Montreal parents with the goal of helping one another go on (more) affordable evening outings, sans kids.**
 '''
 # st.divider()
 col1, col2, col3 = st.columns(3)
@@ -54,7 +54,8 @@ The idea of the **Babysitter Exchange** is to have a nearby parent come over AFT
 Once you sign up you will be given a password to access the map of other neighborhood parents interested in exchanging.
 '''
 st.markdown('**For more info see our <a href="/FAQs" target="_self">FAQ page</a>**', unsafe_allow_html=True)
-
+st.divider()
+st.info('To find and exchange go to 🔍 Find Echange Partner', icon="🚨")
 st.divider()
 
 st.image('media/art_d_pic.jpg', caption="Our little gang", width=None, use_column_width=None, clamp=False, channels="RGB", output_format="auto")
